@@ -26,7 +26,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 /**
  * checkPerfect - recursively checks the nodes to see it they're perfect
  * @tree: the node to check
- * @depth: the depth of the tree
+ * @height: the depth of the tree
  * @level: the current level of the node
  * Return: 1 if tree is perfect, 0 otherwise
  */
