@@ -2,11 +2,12 @@
 #include "binary_trees.h"
 
 /**
- * bstcheckrec - recursively checks if left child  is less than tree
+ * bstCheckRec - recursively checks if left child  is less than tree
  * and right child is more than tree
  * @tree: the tree to check if bst
  * @min: the min value the node can be and still be bst
  * @max: the max value the node can be and still be bst
+ * Return: 1 if bst, 0 otherwise
  */
 int bstCheckRec(const binary_tree_t *tree, int min, int max)
 {
